@@ -11,7 +11,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient(value = "server-hello",fallback = HelloServiceHystirx.class)//对应的是service的名字
+@FeignClient(value = "server-hello",fallback = HelloServiceHystrix.class)//对应的是service的名字
 public interface HelloService {
 
     @RequestMapping(value = "/hello.action")

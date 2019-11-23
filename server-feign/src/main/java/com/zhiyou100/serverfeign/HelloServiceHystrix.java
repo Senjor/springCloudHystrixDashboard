@@ -10,7 +10,7 @@ package com.zhiyou100.serverfeign;
 import org.springframework.stereotype.Component;
 
 @Component
-public class HelloServiceHystirx  implements HelloService{
+public class HelloServiceHystrix implements HelloService{
 
 
     @Override
